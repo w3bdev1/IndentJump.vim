@@ -25,4 +25,4 @@ function IsLineEmpty(line) abort
 	return trim(getline(a:line)) == ''
 endfunction
 
-nmap <Plug>(Indent-Jump) :exec(":".IndentJumpLine())<CR>
+nmap <Plug>(Indent-Jump-Forward) :exec(":".IndentJumpLine())<CR>
